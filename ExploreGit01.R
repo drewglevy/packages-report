@@ -1,13 +1,13 @@
----
-  title: "WTF-Debugging"
-output: html_notebook
----
+#'---
+#'  output: github_document
+#'---
   
-  This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
+ # This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
 
-Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Cmd+Shift+Enter*. 
 
-```{r}
+#Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Cmd+Shift+Enter*. 
+
+#```{r}
 library(here)
 library(tidyverse)
 usethis::use_course("rstd.io/wtf-debugging", destdir = here())
